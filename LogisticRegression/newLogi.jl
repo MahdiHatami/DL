@@ -38,4 +38,3 @@ for epoch=1:10
     train(w, dtrn; lr=0.5)
     println((:epoch, epoch, :trn, accuracy(w,dtrn,predict), :tst, accuracy(w,dtst,predict)))
 end
-d
